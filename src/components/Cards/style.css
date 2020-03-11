@@ -1,0 +1,22 @@
+img {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+}
+
+.hover11 {
+  background: #08011f;
+}
+
+.hover11 img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+img:hover {
+  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 2s ease;
+}
